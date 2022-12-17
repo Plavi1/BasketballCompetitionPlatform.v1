@@ -1,5 +1,5 @@
 ## Link for Plan and UX/UI: 
-   https://github.com/Plavi1/BasketballCompetitionPlatform.v1
+   https://github.com/Plavi1/BasketballCompetitionPlatformPlanning.v1
 
 ## Used Tehnology
 
