@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\tblTeam.sql" />
@@ -71,6 +72,41 @@
     <Build Include="dbo\Tables\tblTeamInAgreementRoom.sql" />
     <Build Include="dbo\Tables\tblInvite.sql" />
     <Build Include="dbo\Tables\tblAgreementRoom_RequestForChange.sql" />
+    <Build Include="dbo\StoredProcedures\spTeam_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spTeam_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spTeam_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spTeam_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spTeam_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spEvent_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spEvent_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spEvent_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spEvent_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spEvent_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spGame_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spGame_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spGame_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spGame_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spGame_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_GetAll_ForAgreementRoomId.sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_GetAll_TeamIdSended .sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_GetAll_TeamIdReceived.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_GetAll_TeamIdSended.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_GetAll_TeamIdReceived.sql" />
+    <Build Include="dbo\StoredProcedures\spVote_GetAll_ForGameId.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BasketballCompetitionPlatform.Database.refactorlog" />
