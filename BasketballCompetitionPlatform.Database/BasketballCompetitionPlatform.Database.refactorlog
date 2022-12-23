@@ -133,4 +133,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Receiver_TeamId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="17677dea-4eab-458f-9e6f-854406923415" ChangeDateTime="12/23/2022 11:49:09">
+    <Property Name="ElementName" Value="[dbo].[tblTeamInAgreementRoom].[IsHeAcceptsTheAgreed]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTeamInAgreementRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsTeamAcceptTheAgreed" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8c045d2e-2509-446e-939d-316b28b3b52d" ChangeDateTime="12/23/2022 11:49:40">
+    <Property Name="ElementName" Value="[dbo].[tblTeamInAgreementRoom].[IsTeamAcceptTheAgreed]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTeamInAgreementRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsTeamAcceptedTheAgreement" />
+  </Operation>
 </Operations>

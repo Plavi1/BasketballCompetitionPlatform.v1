@@ -107,6 +107,21 @@
     <Build Include="dbo\StoredProcedures\spVote_GetAll_TeamIdSended.sql" />
     <Build Include="dbo\StoredProcedures\spVote_GetAll_TeamIdReceived.sql" />
     <Build Include="dbo\StoredProcedures\spVote_GetAll_ForGameId.sql" />
+    <Build Include="dbo\StoredProcedures\spTeamInEvent_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spTeamInEvent_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spTeamInArgeementRoom_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spTeamInAgreementRoom_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spTeamInGame_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spTeamInGame_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_RequestForChange_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_RequestForChange_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_RequestForChange_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_RequestForChange_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_RequestForChange_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_TeamLeave_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_TeamLeave_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_TeamLeave_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spAgreementRoom_TeamLeave_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BasketballCompetitionPlatform.Database.refactorlog" />
