@@ -1,0 +1,10 @@
+﻿CREATE PROCEDURE [dbo].[spVote_Get]
+	@Sender_TeamId INT, 
+    @Receiver_TeamId INT,
+    @GameId INT
+AS
+BEGIN
+    SELECT * 
+    FROM dbo.[tblVote]
+    WHERE Sender_TeamId = @Sender_TeamId AND Receiver_TeamId = @Receiver_TeamId AND GameId = @GameId
+END

@@ -98,4 +98,53 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Player3 " />
   </Operation>
+  <Operation Name="Rename Refactor" Key="be5a06ed-7590-43eb-9390-0ee6bdbc68e9" ChangeDateTime="12/21/2022 10:10:30">
+    <Property Name="ElementName" Value="[dbo].[tblInvite].[TeamId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblInvite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Sender_TeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bcc477da-cfad-47bb-930f-fc3fc2061343" ChangeDateTime="12/21/2022 10:10:41">
+    <Property Name="ElementName" Value="[dbo].[tblInvite].[Invites_TeamId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblInvite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Reaciver_TeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8ace8f0d-8200-45a1-a1fb-5326f7c5a501" ChangeDateTime="12/21/2022 10:11:16">
+    <Property Name="ElementName" Value="[dbo].[tblInvite].[Reaciver_TeamId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblInvite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Receiver_TeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b6747b4f-661c-4e37-89b2-5522cb1a77f2" ChangeDateTime="12/21/2022 10:23:29">
+    <Property Name="ElementName" Value="[dbo].[tblVote].[TeamId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblVote]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Sender_TeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8739484-f109-4355-872f-4006ace4a022" ChangeDateTime="12/21/2022 10:23:37">
+    <Property Name="ElementName" Value="[dbo].[tblVote].[GivesVoteTo_TeamId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblVote]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Receiver_TeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="17677dea-4eab-458f-9e6f-854406923415" ChangeDateTime="12/23/2022 11:49:09">
+    <Property Name="ElementName" Value="[dbo].[tblTeamInAgreementRoom].[IsHeAcceptsTheAgreed]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTeamInAgreementRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsTeamAcceptTheAgreed" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8c045d2e-2509-446e-939d-316b28b3b52d" ChangeDateTime="12/23/2022 11:49:40">
+    <Property Name="ElementName" Value="[dbo].[tblTeamInAgreementRoom].[IsTeamAcceptTheAgreed]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTeamInAgreementRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsTeamAcceptedTheAgreement" />
+  </Operation>
 </Operations>
