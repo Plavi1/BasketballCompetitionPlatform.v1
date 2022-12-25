@@ -147,4 +147,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="IsTeamAcceptedTheAgreement" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c7eba421-c3f0-44f8-b350-6393ac1b7e55" ChangeDateTime="12/23/2022 18:17:17">
+    <Property Name="ElementName" Value="[dbo].[tblAgreementRoom].[LocationOfTheBasketballCourt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblAgreementRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BasketballCourt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cfb9b86a-f87a-4999-ac36-c0d1e4d424d1" ChangeDateTime="12/23/2022 18:23:08">
+    <Property Name="ElementName" Value="[dbo].[tblAgreementRoom_RequestForChange].[NewLocationOfTheBasketballCourt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblAgreementRoom_RequestForChange]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NewBasketballCourt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f8de632c-feb3-41f2-bf89-c77197c487b2" ChangeDateTime="12/23/2022 18:26:26">
+    <Property Name="ElementName" Value="[dbo].[tblGame].[LocationOfTheBasketballCourt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblGame]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BasketballCourt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9c07e643-4bdb-4926-b219-efa3cd711d76" ChangeDateTime="12/23/2022 19:03:30">
+    <Property Name="ElementName" Value="[dbo].[tblGame].[Time]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblGame]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateTimeOfGame" />
+  </Operation>
 </Operations>

@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[tblGame]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Time] TIME NOT NULL, 
-    [Date] DATE NOT NULL, 
-    [LocationOfTheBasketballCourt] NVARCHAR(50) NOT NULL, 
+    [DateTimeOfGame] DATETIME NOT NULL, 
+    [BasketballCourt] INT NOT NULL, 
     [IsGameFinished] BIT NOT NULL DEFAULT 0
+    CONSTRAINT [FK_tblGame_BasketballCourt] FOREIGN KEY ([BasketballCourt]) REFERENCES [dbo].[tblBasketBallCourt] ([Id]) ON DELETE NO ACTION
 )

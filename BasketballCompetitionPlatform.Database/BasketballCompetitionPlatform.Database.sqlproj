@@ -122,6 +122,12 @@
     <Build Include="dbo\StoredProcedures\spAgreementRoom_TeamLeave_Get.sql" />
     <Build Include="dbo\StoredProcedures\spAgreementRoom_TeamLeave_Delete.sql" />
     <Build Include="dbo\StoredProcedures\spAgreementRoom_TeamLeave_Insert.sql" />
+    <Build Include="dbo\Tables\tblBasketballCourt.sql" />
+    <Build Include="dbo\StoredProcedures\spBasketballCourt_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spBasketballCourt_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spBasketballCourt_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spBasketballCourt_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spBasketballCourt_Delete.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BasketballCompetitionPlatform.Database.refactorlog" />

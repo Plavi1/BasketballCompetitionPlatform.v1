@@ -3,10 +3,10 @@
     @AgreementRoomId INT, 
     @NewTime TIME, 
     @NewDate DATE, 
-    @NewLocationOfTheBasketballCourt NVARCHAR(50), 
+    @NewBasketballCourt NVARCHAR(50), 
     @IsAccepted BIT
 AS
 BEGIN
-    INSERT INTO dbo.[tblAgreementRoom_RequestForChange] (TeamId, AgreementRoomId, NewTime, NewDate, NewLocationOfTheBasketballCourt, IsAccepted)
-    VALUES (@TeamId, @AgreementRoomId, @NewTime, @NewDate, @NewLocationOfTheBasketballCourt, @IsAccepted)
+    INSERT INTO dbo.[tblAgreementRoom_RequestForChange] (TeamId, AgreementRoomId, NewTime, NewDate, NewBasketballCourt, IsAccepted)
+    VALUES (@TeamId, @AgreementRoomId, @NewTime, @NewDate, @NewBasketballCourt, @IsAccepted)
 END 
