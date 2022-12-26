@@ -207,6 +207,9 @@
   <data name="Game_Update" xml:space="preserve">
     <value>dbo.spGame_Update</value>
   </data>
+  <data name="Invite_Delete" xml:space="preserve">
+    <value>dbo.spInvite_Delete</value>
+  </data>
   <data name="Invite_Get" xml:space="preserve">
     <value>dbo.spInvite_Get</value>
   </data>

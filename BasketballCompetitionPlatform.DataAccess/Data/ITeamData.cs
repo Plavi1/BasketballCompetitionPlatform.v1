@@ -5,7 +5,7 @@ public interface ITeamData
 {
     Task DeleteTeam(int teamId);
     Task<Team?> GetTeam(int teamId);
-    Task<IEnumerable<Team>> GetTeams();
+    Task<IEnumerable<Team>> GetAllTeams();
     Task<Team> InsertTeam(Team team);
     Task<Team> UpdateTeam(Team team);
 }

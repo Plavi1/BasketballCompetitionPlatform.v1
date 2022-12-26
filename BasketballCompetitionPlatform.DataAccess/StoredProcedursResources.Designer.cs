@@ -331,6 +331,15 @@ namespace BasketballCompetitionPlatform.DataAccess {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to dbo.spInvite_Delete.
+        /// </summary>
+        internal static string Invite_Delete {
+            get {
+                return ResourceManager.GetString("Invite_Delete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to dbo.spInvite_Get.
         /// </summary>
         internal static string Invite_Get {

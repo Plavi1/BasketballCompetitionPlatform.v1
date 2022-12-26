@@ -128,6 +128,7 @@
     <Build Include="dbo\StoredProcedures\spBasketballCourt_Insert.sql" />
     <Build Include="dbo\StoredProcedures\spBasketballCourt_Update.sql" />
     <Build Include="dbo\StoredProcedures\spBasketballCourt_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spInvite_Delete.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BasketballCompetitionPlatform.Database.refactorlog" />

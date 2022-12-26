@@ -11,7 +11,7 @@ public class TeamData : ITeamData
         _db = db;
     }
 
-    public Task<IEnumerable<Team>> GetTeams() =>
+    public Task<IEnumerable<Team>> GetAllTeams() =>
         _db.LoadData<Team, dynamic>(StoredProcedursResources.Team_GetAll, new { });
 
     public async Task<Team?> GetTeam(int teamId)
