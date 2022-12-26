@@ -3,7 +3,7 @@
     @CreationDateTime DATETIME, 
     @Time TIME, 
     @Date DATE, 
-    @LocationOfTheBasketballCourt NVARCHAR(50), 
+    @BasketballCourt NVARCHAR(50), 
     @NumberOfPlayersInRoom INT, 
     @NumberOfTimeRequestChangeAccepted INT, 
     @IsPublicAgreementRoom BIT, 
@@ -11,6 +11,6 @@
     @IsGameFinished INT
 AS
 BEGIN
-    INSERT INTO dbo.[tblAgreementRoom] (Id, CreationDateTime, Time, Date, LocationOfTheBasketballCourt, NumberOfPlayersInRoom, NumberOfTimeRequestChangeAccepted, IsPublicAgreementRoom, IsGameComfirmed, IsGameFinished)
-    VALUES (@Id, @CreationDateTime, @Time, @Date, @LocationOfTheBasketballCourt, @NumberOfPlayersInRoom, @NumberOfTimeRequestChangeAccepted, @IsPublicAgreementRoom, @IsGameComfirmed, @IsGameFinished);
+    INSERT INTO dbo.[tblAgreementRoom] (Id, CreationDateTime, Time, Date, BasketballCourt, NumberOfPlayersInRoom, NumberOfTimeRequestChangeAccepted, IsPublicAgreementRoom, IsGameComfirmed, IsGameFinished)
+    VALUES (@Id, @CreationDateTime, @Time, @Date, @BasketballCourt, @NumberOfPlayersInRoom, @NumberOfTimeRequestChangeAccepted, @IsPublicAgreementRoom, @IsGameComfirmed, @IsGameFinished);
 END

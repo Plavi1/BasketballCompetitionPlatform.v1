@@ -1,12 +1,11 @@
-﻿namespace BasketballCompetitionPlatform.Api
+﻿namespace BasketballCompetitionPlatform.Api;
+
+public static class RegisterServices
 {
-    public static class RegisterServices
+    public static void ConfigureServices(this WebApplicationBuilder builder)
     {
-        public static void ConfigureServices(this WebApplicationBuilder builder)
-        {
-            builder.Services.AddControllers();
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-        }
+        builder.Services.AddControllers();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
     }
 }

@@ -1,8 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spTeamInAgreementRoom_Delete]
 	@TeamId INT, 
-    @AgreementRoomId INT, 
-    @IsCreator BIT,
-    @IsTeamAcceptedTheAgreement BIT
+    @AgreementRoomId INT
 AS
 BEGIN
     DELETE 
