@@ -6,4 +6,4 @@
 * Sql Server
 * Dapper
 * ASP.NET Core Web API 
-* Angular 
+* Blazor Webassembly
