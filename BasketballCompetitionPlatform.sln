@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballCompetitionPlatform.Client", "BasketballCompetitionPlatform.Client\BasketballCompetitionPlatform.Client.csproj", "{C33968E4-D186-4F43-97B1-F14ED9370463}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{E29182D8-EE8A-41A6-AE04-3C73C2C4AFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29182D8-EE8A-41A6-AE04-3C73C2C4AFAB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E29182D8-EE8A-41A6-AE04-3C73C2C4AFAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C33968E4-D186-4F43-97B1-F14ED9370463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33968E4-D186-4F43-97B1-F14ED9370463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33968E4-D186-4F43-97B1-F14ED9370463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33968E4-D186-4F43-97B1-F14ED9370463}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
